@@ -28,4 +28,3 @@ gdf_manual = gpd.GeoDataFrame(
 
 st.title("Карта кампуса университета")
 st.map(gdf_manual)
-st.components.v1.html(map_html.getvalue().decode(), height=700)
